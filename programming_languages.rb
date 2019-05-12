@@ -15,11 +15,12 @@ def reformat_languages(languages)
       if hash_elem[type] == nil 
           hash_elem[type]=key
       else
-        binding.pry
+ #       binding.pry
        hash_elem[type] << key
       end
      end
     reform_hash[key2] = hash_elem
+    binding.pry
     end
     reform_hash
   end
