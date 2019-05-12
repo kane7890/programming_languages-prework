@@ -15,14 +15,15 @@ def reformat_languages(languages)
     keyval2.each do |key2,typehash|
    
      hash_elem = reform_hash[key2]
-    # binding.pry
+      binding.pry
  
    
       typehash.each do |key3, typeval|
         
  
- #      binding.pry
+  #  binding.pry
       if hash_elem == nil 
+
           hash_elem[typeval]=key
       else
  #       binding.pry
