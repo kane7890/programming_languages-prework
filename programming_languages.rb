@@ -19,6 +19,7 @@ def reformat_languages(languages)
        hash_elem[type] << key
       end
      end
+    puts "Key2 #{key2}"
     reform_hash[key2] = hash_elem
     binding.pry
     end
