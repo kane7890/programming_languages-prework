@@ -28,7 +28,7 @@ def reformat_languages(languages)
           hash_elem[typeval]=key
       else
  #       binding.pry
-  #          puts "id #{index}, key2 #{key2}, keyval2: #{typehash}"
+           puts "id #{index}, key2 #{key2}, keyval2: #{typehash}"
        hash_elem[typeval] << key
 
 
