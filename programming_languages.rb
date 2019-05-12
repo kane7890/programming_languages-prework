@@ -18,9 +18,8 @@ def reformat_languages(languages)
         binding.pry
        hash_elem[type] << key
       end
-      reform_hash[key2] = hash_elem
-       binding.pry
-    end
+     end
+    reform_hash[key2] = hash_elem
     end
     reform_hash
   end
