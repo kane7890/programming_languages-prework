@@ -17,8 +17,7 @@ def reformat_languages(languages)
      hash_elem = reform_hash[key2]
     # binding.pry
  
-     puts "id #{index}, key2 #{key2}, keyval2: #{typehash}"
-  
+   
       typehash.each do |key3, type|
         
       # binding.pry
@@ -27,6 +26,8 @@ def reformat_languages(languages)
       else
  #       binding.pry
        hash_elem[type] << key
+           puts "id #{index}, key2 #{key2}, keyval2: #{typehash}"
+
       end
      end
     puts "Key2 #{key2}"
