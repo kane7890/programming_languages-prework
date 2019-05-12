@@ -27,13 +27,15 @@ def reformat_languages(languages)
       if hash_elem == nil 
           hash_elem[typeval]=key
       else
- #       binding.pry
+
            puts "id #{index}, key2 #{key2}, keyval2: #{typehash}"
+           
+        binding.pry
        hash_elem[typeval] << key
 
 
       end
-                 puts "id #{index}, key2 #{key2}, keyval2: #{typehash}"
+                 puts "key2 #{key2}, keyval2: #{typehash}"
      end
     puts "Key2 #{key2}"
     reform_hash[key2] = hash_elem
