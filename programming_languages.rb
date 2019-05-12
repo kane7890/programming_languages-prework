@@ -18,11 +18,11 @@ def reformat_languages(languages)
     # binding.pry
  
    
-      typehash.each do |key3, type|
+      typehash.each do |key3, typeval|
         
      binding.pry
-      if hash_elem[type] == nil 
-          hash_elem[type]=key
+      if hash_elem[typeval] == nil 
+          hash_elem[typeval]=key
       else
  #       binding.pry
             puts "id #{index}, key2 #{key2}, keyval2: #{typehash}"
