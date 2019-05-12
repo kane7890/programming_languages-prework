@@ -34,6 +34,7 @@ def reformat_languages(languages)
            
  #       binding.pry
               puts "key #{key}, key2 #{key2}, hash_elem: #{hash_elem}"
+              binding.pry
         if hash_elem[typeval].include?(key) == false
           hash_elem[typeval] << key
         end
