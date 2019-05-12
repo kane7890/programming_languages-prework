@@ -21,7 +21,7 @@ def reformat_languages(languages)
      end
     puts "Key2 #{key2}"
     reform_hash[key2] = hash_elem
-    binding.pry
+  #  binding.pry
     end
     reform_hash
   end
