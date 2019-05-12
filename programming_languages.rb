@@ -11,6 +11,7 @@ def reformat_languages(languages)
      # hash_elem = reform_hash[key2]
     # binding.pry
       typehash.each do |key3, type|
+      binding.pry
       hash_elem[type] << key
       reform_hash[key2] = hash_elem
       binding.pry
