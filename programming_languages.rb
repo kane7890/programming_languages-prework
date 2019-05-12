@@ -6,7 +6,9 @@ def reformat_languages(languages)
   hash_elem={}
   style=[]
   index = 0
+  binding.pry
   languages.each do |key, keyval2| 
+    
 #    binding.pry
         puts "id #{index}, key #{key}, keyval2: #{keyval2}"
         index += 1
