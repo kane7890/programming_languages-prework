@@ -35,7 +35,7 @@ describe '#reformat_languages' do
       }
     }
   }
-  binding.pry
+
 
   let(:result) { reformat_languages(languages_by_style) }
 
