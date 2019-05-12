@@ -6,10 +6,12 @@ def reformat_languages(languages)
   hash_elem={}
   style=[]
   languages.each do |key, keyval2| 
-    puts "key #{key}, keyval2: #{keyval2}"
     keyval2.each do |key2,typehash|
-     # hash_elem = reform_hash[key2]
+     hash_elem = reform_hash[key2]
     # binding.pry
+     puts "key2 #{key}, keyval2: #{typehash}"
+ 
+  
       typehash.each do |key3, type|
       # binding.pry
       if hash_elem[type] == nil 
