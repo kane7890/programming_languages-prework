@@ -22,7 +22,7 @@ def reformat_languages(languages)
         
  
        binding.pry
-      if hash_elem[typeval] == nil 
+      if hash_elem == nil 
           hash_elem[typeval]=key
       else
  #       binding.pry
