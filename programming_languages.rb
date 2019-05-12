@@ -26,12 +26,12 @@ def reformat_languages(languages)
   #  binding.pry
       if hash_elem == {}
           hash_elem[typeval]=key
-          binding.pry
+          # binding.pry
       else
 
            puts "id #{index}, key2 #{key2}, keyval2: #{typehash}"
            
-        binding.pry
+        # binding.pry
        hash_elem[typeval] << key
 
 
