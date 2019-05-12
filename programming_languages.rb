@@ -9,6 +9,7 @@ def reformat_languages(languages)
 
     keyval2.each do |key2,type|
      # hash_elem = reform_hash[key2]
+     binding.pry
       hash_elem[type] << key
       reform_hash[key2] = hash_elem
       binding.pry
