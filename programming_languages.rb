@@ -25,15 +25,15 @@ def reformat_languages(languages)
  
   #  binding.pry
       if hash_elem == {}
-          hash_elem[typeval]=key
+          hash_elem[typeval]=[]
+          hash_elem[typeval] << key
           # binding.pry
       else
 
            puts "id #{index}, key3 #{key3}, typeval: #{typeval}"
            
-        binding.pry
-        if hash_elem[typeva]
-       hash_elem[typeval]
+        # binding.pry
+       hash_elem[typeval] << key
 
 
       end
