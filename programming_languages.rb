@@ -13,11 +13,11 @@ def reformat_languages(languages)
        
         index += 1
     keyval2.each do |key2,typehash|
-       puts "id #{index}, key2 #{key2}, keyval2: #{typehash}"
+   
      hash_elem = reform_hash[key2]
     # binding.pry
  
- 
+     puts "id #{index}, key2 #{key2}, keyval2: #{typehash}"
   
       typehash.each do |key3, type|
         
