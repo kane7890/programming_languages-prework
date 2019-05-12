@@ -5,9 +5,11 @@ def reformat_languages(languages)
   reform_hash={}
   hash_elem={}
   style=[]
+  index = 0
   languages.each do |key, keyval2| 
-    binding.pry
-        puts "key #{key}, typehash: #{typehash}"
+#    binding.pry
+        puts "id #{index}, key #{key}, keyval2: #{keyval2}"
+        index += 1
     keyval2.each do |key2,typehash|
      hash_elem = reform_hash[key2]
     # binding.pry
