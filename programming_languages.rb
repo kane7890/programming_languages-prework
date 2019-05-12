@@ -7,12 +7,14 @@ def reformat_languages(languages)
   style=[]
   languages.each do |key, keyval2| 
 
-    keyval2.each do |key2,type|
+    keyval2.each do |key2,typehash|
      # hash_elem = reform_hash[key2]
-     binding.pry
+    # binding.pry
+      typehash.each do |key3, type|
       hash_elem[type] << key
       reform_hash[key2] = hash_elem
       binding.pry
+    end
     end
   end
       
