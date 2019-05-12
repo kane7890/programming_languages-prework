@@ -30,15 +30,16 @@ def reformat_languages(languages)
           # binding.pry
       else
 
-           puts "id #{index}, key3 #{key3}, typeval: #{typeval}"
+       #    puts "id #{index}, key3 #{key3}, typeval: #{typeval}"
            
  #       binding.pry
+              puts "key2 #{key2}, hash_elem: #{hash_elem}"
         if hash_elem[typeval].include?(key) == false
           hash_elem[typeval] << key
         end
 
       end
-                 puts "key2 #{key2}, hash_elem: #{hash_elem}"
+    
      end
     puts "Key2 #{key2}"
     reform_hash[key2] = hash_elem
