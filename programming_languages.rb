@@ -38,7 +38,7 @@ def reformat_languages(languages)
         end
 
       end
-                 puts "key2 #{key2}, keyval2: #{typehash}"
+                 puts "key2 #{key2}, hash_elem: #{hash_elem}"
      end
     puts "Key2 #{key2}"
     reform_hash[key2] = hash_elem
