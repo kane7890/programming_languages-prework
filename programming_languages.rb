@@ -33,7 +33,7 @@ def reformat_languages(languages)
        #    puts "id #{index}, key3 #{key3}, typeval: #{typeval}"
            
  #       binding.pry
-              puts "key2 #{key2}, hash_elem: #{hash_elem}"
+              puts "key #{key}, key2 #{key2}, hash_elem: #{hash_elem}"
         if hash_elem[typeval].include?(key) == false
           hash_elem[typeval] << key
         end
