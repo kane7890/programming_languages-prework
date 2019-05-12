@@ -14,7 +14,7 @@ def reformat_languages(languages)
         index += 1
     keyval2.each do |key2,typehash|
    
-     hash_elem = reform_hash[key2]
+    # hash_elem = reform_hash[key2]
     # binding.pry
  
    
