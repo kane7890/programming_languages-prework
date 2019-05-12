@@ -25,10 +25,12 @@ def reformat_languages(languages)
           hash_elem[type]=key
       else
  #       binding.pry
+            puts "id #{index}, key2 #{key2}, keyval2: #{typehash}"
        hash_elem[type] << key
-           puts "id #{index}, key2 #{key2}, keyval2: #{typehash}"
+
 
       end
+                 puts "id #{index}, key2 #{key2}, keyval2: #{typehash}"
      end
     puts "Key2 #{key2}"
     reform_hash[key2] = hash_elem
