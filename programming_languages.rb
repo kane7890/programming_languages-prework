@@ -31,7 +31,7 @@ def reformat_languages(languages)
 
            puts "id #{index}, key3 #{key3}, typeval: #{typeval}"
            
-        # binding.pry
+        binding.pry
        hash_elem[typeval] << key
 
 
