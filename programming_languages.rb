@@ -14,7 +14,9 @@ def reformat_languages(languages)
         index += 1
     keyval2.each do |key2,typehash|
    
+      if reform_hash[key2] != nil
      hash_elem = reform_hash[key2]
+   end
    # binding.pry
  
    
@@ -23,7 +25,6 @@ def reformat_languages(languages)
  
   #  binding.pry
       if hash_elem == nil 
-          binding.pry
           hash_elem[typeval]=key
       else
  #       binding.pry
