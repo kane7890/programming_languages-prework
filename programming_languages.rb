@@ -9,7 +9,7 @@ def reformat_languages(languages)
  # binding.pry
   languages.each do |key, keyval2| 
     
-    binding.pry
+  #  binding.pry
         puts "id #{index}, key #{key}, keyval2: #{keyval2}"
         index += 1
     keyval2.each do |key2,typehash|
