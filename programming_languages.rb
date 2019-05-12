@@ -20,7 +20,7 @@ def reformat_languages(languages)
    
       typehash.each do |key3, type|
         
-      # binding.pry
+     binding.pry
       if hash_elem[type] == nil 
           hash_elem[type]=key
       else
