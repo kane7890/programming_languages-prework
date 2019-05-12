@@ -27,7 +27,7 @@ def reformat_languages(languages)
       else
  #       binding.pry
   #          puts "id #{index}, key2 #{key2}, keyval2: #{typehash}"
-       hash_elem[type] << key
+       hash_elem[typeval] << key
 
 
       end
